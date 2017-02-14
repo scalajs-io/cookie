@@ -1,6 +1,6 @@
 {
-  "name": "scalajs-io",
-  "version": "7.4.0",
+  "name": "cookie-sjs",
+  "version": "0.3.1",
   "private": true,
   "dependencies": {
     "cookie": "^0.3.1",
