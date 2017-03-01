@@ -9,7 +9,6 @@ Basic HTTP cookie parser and serializer for HTTP servers.
 <a name="build_requirements"></a>
 ### Build Requirements
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 <a name="building_sdk"></a>
@@ -48,7 +47,7 @@ println(s"cookies => ${JSON.stringify(cookies)}") //=> { "foo" : "bar", "equatio
 To add the `Cookie` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "cookie" % "0.3.1"
+libraryDependencies += "io.scalajs.npm" %%% "cookie" % "0.3.1-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
