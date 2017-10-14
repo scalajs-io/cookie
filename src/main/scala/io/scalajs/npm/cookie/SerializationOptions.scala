@@ -3,7 +3,7 @@ package io.scalajs.npm.cookie
 import io.scalajs.JsNumber
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 import scala.scalajs.js.|
 
 /**
@@ -58,7 +58,7 @@ import scala.scalajs.js.|
   *                 the server in the future if the browser does not have an HTTPS connection.
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class SerializationOptions(var domain: js.UndefOr[String] = js.undefined,
                            var encode: js.UndefOr[js.Function] = js.undefined,
                            var expires: js.UndefOr[String] = js.undefined,
